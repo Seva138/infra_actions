@@ -25,7 +25,13 @@ SECRET_KEY = 'k9gwcfq01xszx2(_4e#gc3u$rt=)y6ivx=$wt+5&-^ktk4dg4e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'sevapc.ru',
+    'www.sevapc.ru',
+    '127.0.0.1',
+    '62.84.113.77',
+]
 
 
 # Application definition
